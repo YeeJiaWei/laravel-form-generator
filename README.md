@@ -16,6 +16,12 @@ composer require yeejiawei/laravel-form-generator
 ## Usage
 
 ```php
+return FormGenerator::create()
+            ->setLayout('layouts_admin.app') // set layout when no using 'layouts.app' as default
+            ->setFormName('Create Category')
+            ->addInputField('title')
+            ->setCreateRouteName('category.store')
+            ->render();
 ```
 
 ## Credits

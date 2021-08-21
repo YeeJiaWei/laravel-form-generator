@@ -1,0 +1,26 @@
+{
+    "name": "yeejiawei/laravel-form-generator",
+    "type": "laravel-package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YeeJiaWei\\FormGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yee Jia Wei",
+            "email": "yeejiawei0811@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YeeJiaWei\\FormGenerator\\FormGeneratorServiceProvider"
+            ]
+        }
+    }
+}

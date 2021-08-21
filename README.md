@@ -1,4 +1,4 @@
-# Laravel Table Generator
+# Laravel Form Generator
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/yeejiawei/laravel-form-generator.svg)](https://packagist.org/packages/yeejiawei/laravel-form-generator)
 [![Latest Version on Packagist](https://img.shields.io/badge/license-MIT-green)](LICENSE.md)
